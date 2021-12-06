@@ -2,7 +2,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/nathansegers/kubernetes-storage-test
+  repository: ghcr.io/nathansegers/fastapi-intro
   tag: latest
   pullPolicy: IfNotPresent
 
