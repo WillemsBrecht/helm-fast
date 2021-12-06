@@ -11,6 +11,10 @@ imagePullSecrets: []
 nodeSelector:
   kubernetes.io/hostname: willems-brecht
 
+service:
+  type: ClusterIP
+  port: 80
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
