@@ -550,6 +550,21 @@ entries:
     version: 0.2.2
   fastapi:
   - apiVersion: v2
+    appVersion: "5.0"
+    created: "2021-12-06T19:39:31.247493808Z"
+    description: Meaningful description
+    digest: 3c68ac67fb2e95c6b8f1a7bc3015c7bc08768e26cde9ac6fef8cefd7f67603b4
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: fastapi
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/WillemsBrecht/helm-fast/releases/download/fastapi-5.0.0/fastapi-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
     appVersion: "3.0"
     created: "2021-12-06T18:55:50.114370233Z"
     description: Meaningful description
